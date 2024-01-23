@@ -35,7 +35,7 @@ void print_list(const listint_t *list);
 
 /* Sorting functions */
 void bubble_sort(int *array, size_t size);
-void inserion_sort_list(listint_t **list);
+void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 
