@@ -25,7 +25,7 @@ void swap_int (int *x, int *y)
 void bubble_sort(int *array, size_t size)
 {
 	size_t a, len = size;
-	bool bubbly = false;
+	bool bubbly = true;
 
 	if (array == NULL || size < 2)
 		return;
